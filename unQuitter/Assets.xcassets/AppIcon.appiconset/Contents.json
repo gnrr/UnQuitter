@@ -31,13 +31,15 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "UnQuitter_icon@2x.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "UnQuitter_icon@3x.png",
       "scale" : "3x"
     },
     {
@@ -71,8 +73,9 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "ipad",
       "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "UnQuitter_icon@1x.png",
       "scale" : "1x"
     },
     {
@@ -84,6 +87,12 @@
       "idiom" : "ipad",
       "size" : "83.5x83.5",
       "scale" : "2x"
+    },
+    {
+      "size" : "1024x1024",
+      "idiom" : "ios-marketing",
+      "filename" : "UnQuitter_icon_1024.png",
+      "scale" : "1x"
     }
   ],
   "info" : {
