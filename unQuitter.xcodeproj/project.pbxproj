@@ -12,8 +12,8 @@
 		069E51091FF715D4000BB131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069E51071FF715D4000BB131 /* Main.storyboard */; };
 		069E510B1FF715D4000BB131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069E510A1FF715D4000BB131 /* Assets.xcassets */; };
 		069E510E1FF715D4000BB131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069E510C1FF715D4000BB131 /* LaunchScreen.storyboard */; };
-		069E51191FF715D4000BB131 /* no_quitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069E51181FF715D4000BB131 /* no_quitterTests.swift */; };
-		069E51241FF715D4000BB131 /* no_quitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069E51231FF715D4000BB131 /* no_quitterUITests.swift */; };
+		069E51191FF715D4000BB131 /* UnQuitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069E51181FF715D4000BB131 /* UnQuitterTests.swift */; };
+		069E51241FF715D4000BB131 /* UnQuitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069E51231FF715D4000BB131 /* UnQuitterUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		069E51001FF715D4000BB131 /* no_quitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = no_quitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		069E51001FF715D4000BB131 /* UnQuitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnQuitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069E51031FF715D4000BB131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		069E51051FF715D4000BB131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		069E51081FF715D4000BB131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		069E510A1FF715D4000BB131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		069E510D1FF715D4000BB131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069E510F1FF715D4000BB131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		069E51141FF715D4000BB131 /* no_quitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = no_quitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		069E51181FF715D4000BB131 /* no_quitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = no_quitterTests.swift; sourceTree = "<group>"; };
+		069E51141FF715D4000BB131 /* UnQuitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnQuitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		069E51181FF715D4000BB131 /* UnQuitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnQuitterTests.swift; sourceTree = "<group>"; };
 		069E511A1FF715D4000BB131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		069E511F1FF715D4000BB131 /* no_quitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = no_quitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		069E51231FF715D4000BB131 /* no_quitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = no_quitterUITests.swift; sourceTree = "<group>"; };
+		069E511F1FF715D4000BB131 /* UnQuitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnQuitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		069E51231FF715D4000BB131 /* UnQuitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnQuitterUITests.swift; sourceTree = "<group>"; };
 		069E51251FF715D4000BB131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,60 +77,60 @@
 		069E50F71FF715D4000BB131 = {
 			isa = PBXGroup;
 			children = (
-				069E51021FF715D4000BB131 /* no_quitter */,
-				069E51171FF715D4000BB131 /* no_quitterTests */,
-				069E51221FF715D4000BB131 /* no_quitterUITests */,
 				069E51011FF715D4000BB131 /* Products */,
+				069E51021FF715D4000BB131 /* UnQuitter */,
+				069E51171FF715D4000BB131 /* UnQuitterTests */,
+				069E51221FF715D4000BB131 /* UnQuitterUITests */,
 			);
 			sourceTree = "<group>";
 		};
 		069E51011FF715D4000BB131 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				069E51001FF715D4000BB131 /* no_quitter.app */,
-				069E51141FF715D4000BB131 /* no_quitterTests.xctest */,
-				069E511F1FF715D4000BB131 /* no_quitterUITests.xctest */,
+				069E51001FF715D4000BB131 /* UnQuitter.app */,
+				069E51141FF715D4000BB131 /* UnQuitterTests.xctest */,
+				069E511F1FF715D4000BB131 /* UnQuitterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		069E51021FF715D4000BB131 /* no_quitter */ = {
+		069E51021FF715D4000BB131 /* UnQuitter */ = {
 			isa = PBXGroup;
 			children = (
 				069E51031FF715D4000BB131 /* AppDelegate.swift */,
-				069E51051FF715D4000BB131 /* ViewController.swift */,
-				069E51071FF715D4000BB131 /* Main.storyboard */,
 				069E510A1FF715D4000BB131 /* Assets.xcassets */,
-				069E510C1FF715D4000BB131 /* LaunchScreen.storyboard */,
 				069E510F1FF715D4000BB131 /* Info.plist */,
+				069E510C1FF715D4000BB131 /* LaunchScreen.storyboard */,
+				069E51071FF715D4000BB131 /* Main.storyboard */,
+				069E51051FF715D4000BB131 /* ViewController.swift */,
 			);
-			path = no_quitter;
+			path = UnQuitter;
 			sourceTree = "<group>";
 		};
-		069E51171FF715D4000BB131 /* no_quitterTests */ = {
+		069E51171FF715D4000BB131 /* UnQuitterTests */ = {
 			isa = PBXGroup;
 			children = (
-				069E51181FF715D4000BB131 /* no_quitterTests.swift */,
 				069E511A1FF715D4000BB131 /* Info.plist */,
+				069E51181FF715D4000BB131 /* UnQuitterTests.swift */,
 			);
-			path = no_quitterTests;
+			path = UnQuitterTests;
 			sourceTree = "<group>";
 		};
-		069E51221FF715D4000BB131 /* no_quitterUITests */ = {
+		069E51221FF715D4000BB131 /* UnQuitterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				069E51231FF715D4000BB131 /* no_quitterUITests.swift */,
 				069E51251FF715D4000BB131 /* Info.plist */,
+				069E51231FF715D4000BB131 /* UnQuitterUITests.swift */,
 			);
-			path = no_quitterUITests;
+			path = UnQuitterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		069E50FF1FF715D4000BB131 /* no_quitter */ = {
+		069E50FF1FF715D4000BB131 /* UnQuitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 069E51281FF715D4000BB131 /* Build configuration list for PBXNativeTarget "no_quitter" */;
+			buildConfigurationList = 069E51281FF715D4000BB131 /* Build configuration list for PBXNativeTarget "UnQuitter" */;
 			buildPhases = (
 				069E50FC1FF715D4000BB131 /* Sources */,
 				069E50FD1FF715D4000BB131 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = no_quitter;
+			name = UnQuitter;
 			productName = no_quitter;
-			productReference = 069E51001FF715D4000BB131 /* no_quitter.app */;
+			productReference = 069E51001FF715D4000BB131 /* UnQuitter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		069E51131FF715D4000BB131 /* no_quitterTests */ = {
+		069E51131FF715D4000BB131 /* UnQuitterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 069E512B1FF715D4000BB131 /* Build configuration list for PBXNativeTarget "no_quitterTests" */;
+			buildConfigurationList = 069E512B1FF715D4000BB131 /* Build configuration list for PBXNativeTarget "UnQuitterTests" */;
 			buildPhases = (
 				069E51101FF715D4000BB131 /* Sources */,
 				069E51111FF715D4000BB131 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				069E51161FF715D4000BB131 /* PBXTargetDependency */,
 			);
-			name = no_quitterTests;
+			name = UnQuitterTests;
 			productName = no_quitterTests;
-			productReference = 069E51141FF715D4000BB131 /* no_quitterTests.xctest */;
+			productReference = 069E51141FF715D4000BB131 /* UnQuitterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		069E511E1FF715D4000BB131 /* no_quitterUITests */ = {
+		069E511E1FF715D4000BB131 /* UnQuitterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 069E512E1FF715D4000BB131 /* Build configuration list for PBXNativeTarget "no_quitterUITests" */;
+			buildConfigurationList = 069E512E1FF715D4000BB131 /* Build configuration list for PBXNativeTarget "UnQuitterUITests" */;
 			buildPhases = (
 				069E511B1FF715D4000BB131 /* Sources */,
 				069E511C1FF715D4000BB131 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				069E51211FF715D4000BB131 /* PBXTargetDependency */,
 			);
-			name = no_quitterUITests;
+			name = UnQuitterUITests;
 			productName = no_quitterUITests;
-			productReference = 069E511F1FF715D4000BB131 /* no_quitterUITests.xctest */;
+			productReference = 069E511F1FF715D4000BB131 /* UnQuitterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 069E50FB1FF715D4000BB131 /* Build configuration list for PBXProject "no_quitter" */;
+			buildConfigurationList = 069E50FB1FF715D4000BB131 /* Build configuration list for PBXProject "UnQuitter" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				069E50FF1FF715D4000BB131 /* no_quitter */,
-				069E51131FF715D4000BB131 /* no_quitterTests */,
-				069E511E1FF715D4000BB131 /* no_quitterUITests */,
+				069E50FF1FF715D4000BB131 /* UnQuitter */,
+				069E51131FF715D4000BB131 /* UnQuitterTests */,
+				069E511E1FF715D4000BB131 /* UnQuitterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				069E51191FF715D4000BB131 /* no_quitterTests.swift in Sources */,
+				069E51191FF715D4000BB131 /* UnQuitterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				069E51241FF715D4000BB131 /* no_quitterUITests.swift in Sources */,
+				069E51241FF715D4000BB131 /* UnQuitterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		069E51161FF715D4000BB131 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 069E50FF1FF715D4000BB131 /* no_quitter */;
+			target = 069E50FF1FF715D4000BB131 /* UnQuitter */;
 			targetProxy = 069E51151FF715D4000BB131 /* PBXContainerItemProxy */;
 		};
 		069E51211FF715D4000BB131 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 069E50FF1FF715D4000BB131 /* no_quitter */;
+			target = 069E50FF1FF715D4000BB131 /* UnQuitter */;
 			targetProxy = 069E51201FF715D4000BB131 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -302,6 +302,7 @@
 				069E51081FF715D4000BB131 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		069E510C1FF715D4000BB131 /* LaunchScreen.storyboard */ = {
@@ -310,6 +311,7 @@
 				069E510D1FF715D4000BB131 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -427,9 +429,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = no_quitter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UnQuitter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "g.no-quitter";
+				PRODUCT_BUNDLE_IDENTIFIER = g.unquitter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -441,9 +443,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = no_quitter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UnQuitter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "g.no-quitter";
+				PRODUCT_BUNDLE_IDENTIFIER = g.unquitter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -462,7 +464,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/no_quitter.app/no_quitter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnQuitter.app/UnQuitter";
 			};
 			name = Debug;
 		};
@@ -478,7 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/no_quitter.app/no_quitter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnQuitter.app/UnQuitter";
 			};
 			name = Release;
 		};
@@ -515,7 +517,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		069E50FB1FF715D4000BB131 /* Build configuration list for PBXProject "no_quitter" */ = {
+		069E50FB1FF715D4000BB131 /* Build configuration list for PBXProject "UnQuitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				069E51261FF715D4000BB131 /* Debug */,
@@ -524,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		069E51281FF715D4000BB131 /* Build configuration list for PBXNativeTarget "no_quitter" */ = {
+		069E51281FF715D4000BB131 /* Build configuration list for PBXNativeTarget "UnQuitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				069E51291FF715D4000BB131 /* Debug */,
@@ -533,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		069E512B1FF715D4000BB131 /* Build configuration list for PBXNativeTarget "no_quitterTests" */ = {
+		069E512B1FF715D4000BB131 /* Build configuration list for PBXNativeTarget "UnQuitterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				069E512C1FF715D4000BB131 /* Debug */,
@@ -542,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		069E512E1FF715D4000BB131 /* Build configuration list for PBXNativeTarget "no_quitterUITests" */ = {
+		069E512E1FF715D4000BB131 /* Build configuration list for PBXNativeTarget "UnQuitterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				069E512F1FF715D4000BB131 /* Debug */,

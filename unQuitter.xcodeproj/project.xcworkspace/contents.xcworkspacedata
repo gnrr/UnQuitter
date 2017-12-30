@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:no_quitter.xcodeproj">
+      location = "self:/Users/g/Dropbox/test/swift/no_quitter/UnQuitter.xcodeproj">
    </FileRef>
 </Workspace>

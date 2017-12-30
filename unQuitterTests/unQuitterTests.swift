@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import no_quitter
+@testable import UnQuitter
 
-class no_quitterTests: XCTestCase {
+class UnQuitterTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
